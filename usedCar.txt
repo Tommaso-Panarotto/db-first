@@ -1,0 +1,19 @@
+
+Name table: Used cras
+
+
+id                          BIGINT            PRIMARY_KEY           AUTO_INCREMENT
+model                       VARCHAR(255)      NOT_NULL
+version                     VARCHAR(255)      NULL
+year_production             YEAR              NULL
+brand                       VARCHAR(255)      NULL
+type_of_fuel                VARCHAR(255)      NOT_NULL
+seatings                    TINYINT           NULL
+kilometers                  SMALLINT          NOT_NULL
+doors                       TINYINT           NULL
+emission_class              CHAR(5)           NULL
+license_plate               CHAR(7)           NOT_NULL              UNIQUE
+price                       FLOAT(7,2)        NOT_NULL
+
+
+
